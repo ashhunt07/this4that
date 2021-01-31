@@ -45,5 +45,5 @@ Created using React with a Mongo database, Mongoose schema, and Express to handl
 # License
 MIT
 
-#### Original Repo
-#### <a href="https://github.com/xtasherx/project3">Project Repo</a>
+
+##### <a href="https://github.com/xtasherx/project3">Original Repo</a>
