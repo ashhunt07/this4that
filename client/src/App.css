@@ -1,0 +1,503 @@
+/* Navigation */
+.navBar {
+  background-color: #063044;
+  padding: 0.75em 5% !important;
+}
+
+.navBar h1 {
+  color: #fff;
+}
+
+.navLink {
+  color: #fff !important;
+  text-decoration: none;
+  padding: 0.5em 10px;
+}
+
+.navLink:hover {
+  color: #ffc870 !important;
+  text-decoration: none;
+}
+
+.navbar-toggler, .btn, 
+.navbar-toggler, .btn:hover,
+.navbar-toggler, .btn:active,
+.navbar-toggler, .btn:focus
+{
+  border: none !important;
+	cursor: pointer!important;
+  outline: none!important;
+  box-shadow: none !important;
+}
+
+
+/* Authentication buttons */
+.authenLogin {
+  background-color: #246476 !important;
+  color: #fff !important;
+  font-weight: 600 !important;
+  box-shadow: none !important;
+}
+
+.authenLogin:hover {
+  background-color: #e9bf49 !important;
+  color: #333333 !important;
+  font-weight: 600 !important;
+  box-shadow: none !important;
+}
+
+.authenLogout {
+  background-color: #e9bf49 !important;
+  color: #333333 !important;
+  font-weight: 600 !important;
+  box-shadow: none !important;
+}
+
+.authenLogout:hover{ 
+  color: #fff !important;
+  background-color: #246476 !important;
+}
+
+.authenSignup {
+  background-color: #246476 !important;
+  color: #fff !important;
+  font-weight: 600 !important;
+  box-shadow: none !important;
+}
+
+.authenSignup:hover {
+  background-color: #e9bf49 !important;
+  color: #333333 !important;
+  font-weight: 600 !important;
+  box-shadow: none !important;
+}
+
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl{
+  max-width: 1200px !important;
+  padding: 0 !important;
+  margin: 0 auto;
+}
+
+/* Home Elements */
+.jumbotron {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("https://images.pexels.com/photos/1409215/pexels-photo-1409215.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding: 4em 30px !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+
+.jumbotron .container{
+  max-width: 600px !important;
+  margin: 0 auto;
+}
+
+.jumbotron h1 {
+  font-size: 3.5em;
+  font-weight: 200;
+}
+.jumbotron h4 {
+  line-height: 1.25;
+}
+
+.jumbotron p {
+  font-size: 20px;
+}
+
+/* Profile Page */
+.userInfo {
+  padding: 4em 20px 0;
+  background-color: #063044;
+}
+
+.profileCard {
+  border-radius: 5px;
+  padding: 2em 40px;
+  background-color: #fff;
+}
+
+.profileCard .card-body{
+  padding: 0px !important;
+}
+
+.profile {
+  padding: 1em 0;
+}
+
+.profCircle {
+  width: 200px;
+  border-radius: 50%;
+  margin-bottom: 2em;
+}
+
+.edit {
+  color: #8baec0;
+  text-decoration: none;
+}
+
+.edit:hover {
+  color: #5e90a8;
+  text-decoration: none;
+}
+
+.bio{
+  margin: 0 30px;
+  padding: 0 1em 1em;
+}
+
+
+
+
+/* Profile Edit */
+.proEdit {
+  background-color: #063044;
+  width: 100%;
+  height: 100%;
+  min-height: 100vh;
+  padding: 3em 0;
+}
+
+.edit-form {
+  width: 80%;
+}
+
+.edit-form h2,
+.edit-form h6 {
+  color: rgb(241, 241, 241);
+}
+
+.form-label,
+label {
+  color: rgb(241, 241, 241);
+}
+
+.form-control-file {
+  color: rgb(241, 241, 241);
+}
+
+.edit-form .btn {
+  background-color: #e9bf49;
+  color: #333333;
+  font-weight: 600;
+}
+
+/* Review User */
+.submitReview {
+  background-color: #063044;
+  color: #fff;
+  height: 100%;
+  min-height: 100vh;
+}
+
+
+/* Skills Input */
+.skill-input input {
+  flex: 1;
+  width: 300px;
+  border: none;
+  border-radius: 5px;
+  height: 3em;
+  font-size: 14px;
+  padding: 10px;
+  margin: 0.5em 0 0;
+}
+
+.skill-input,
+input:focus {
+  outline: transparent;
+}
+
+.skill-input #skill {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 0;
+}
+
+.skill-input .skill {
+  width: auto;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  padding: 0 8px;
+  font-size: 14px;
+  list-style: none;
+  border-radius: 6px;
+  margin: 0 8px 0 0;
+  background: #7cad3e;
+}
+
+.skill-input .skill-close-icon {
+  display: block;
+  width: 1em;
+  height: 1em;
+  line-height: 12px;
+  text-align: center;
+  font-size: 14px;
+  margin-left: 8px;
+  color: #246476;
+  border-radius: 50%;
+  background: #fff;
+  cursor: pointer;
+}
+
+.skillSet span {
+  background-color: #7cad3e;
+  font-size: 14px;
+  color: #fff;
+  padding: 0.5em 10px;
+  margin-right: 5px;
+  border-radius: 5px;
+}
+
+/* Review Slider */
+.revSlide {
+  margin: 0 auto 3em;
+  width: 100%;
+}
+
+.carousel-slider,
+.slider-wrapper,
+.slide {
+  background-color: #fff !important;
+  margin: 0.25em 0 1em !important;
+  border-radius: 5px;
+}
+.carousel.carousel-slider .control-arrow:active,
+.carousel.carousel-slider .control-arrow:hover {
+  background-color: transparent !important;
+  
+}
+
+/* left arrow */
+.carousel .control-prev.control-arrow:before {
+  border-right: 8px solid #e9bf49 !important;
+  margin-left: 20px !important;
+}
+/* right arrow */
+.carousel .control-next.control-arrow:before {
+  border-left: 8px solid #e9bf49 !important;
+  margin-right: 20px !important;
+}
+
+.setStar {
+  color: #ffc107;
+}
+
+.profRev {
+  background-color: #063044;
+  padding: 1em;
+}
+
+.profRev h4 {
+  color: #fff;
+}
+
+/* Review Card */
+.circle {
+  width: 100px !important;
+  border-radius: 50%;
+  background-color: bisque;
+}
+
+.reviewCard {
+  text-align: center;
+  background-color: none;
+  padding: 1em 0px;
+  width: auto;
+}
+
+.reviewCard button {
+  height: 100%;
+  bottom: 0;
+}
+
+.reviewText {
+  width: 60%;
+}
+
+/* rating */
+input[type="radio"] {
+  display: none;
+}
+
+.star {
+  cursor: pointer;
+  transition: color 200ms;
+}
+
+/* Browse Profiles */
+.searchBar input {
+  width: 50%;
+  border-radius: 5px;
+  margin: 0 auto !important;
+  display: flex;
+  border: 1px solid #8baec0;
+  padding: 0.25em 1em;
+}
+
+.smCard{
+  width: 95%;
+  margin: 0 2.5%;
+}
+
+.card {
+  width: 100%;
+  border-radius: 10px !important;
+  border: 0px none !important;
+  margin: 1em 10px 0;
+}
+
+.img-container{
+  padding: 1em 10px 0;
+  margin: 0 auto;
+}
+
+.smContent {
+  padding: 1em 0 2em!important;
+  color: #063044;
+  text-align: center;
+}
+
+.viewPro, .viewPro:active, .viewPro:focus{
+  width: 100%;
+  position:absolute;
+  bottom: 0 !important;
+  border: 0px none !important;
+  /* top-left, top-right, bottom-right, bottom left */
+  border-radius: 0 0 5px 5px !important;
+  box-shadow: none !important;
+  background-color: #e9bf49 !important;
+  color: #333333 !important;
+  font-weight: 600 !important;
+}
+
+.viewPro:hover{ 
+  color: #fff !important;
+  background-color: #246476 !important;
+}
+
+/* Footer */
+footer {
+  background-color: #fff;
+  width: 100%;
+  padding: 0.5em 0;
+  bottom: 0;
+  position: relative;
+}
+
+footer a{
+  color: #e9bf49;
+  text-decoration: none;
+}
+
+footer a:hover{ 
+  color: #246476;
+  text-decoration: none;
+}
+
+
+/* Messing Modal */
+.closeBtn{
+  background: none!important;
+	color: inherit!important;
+	border: none!important;
+	padding: 0!important;
+	font: inherit!important;
+	cursor: pointer!important;
+  outline: inherit!important;
+}
+
+.closeBtn span{
+  font-size: 2em;
+}
+
+
+/* Messenger Content */
+.messages{
+  overflow:scroll;
+  height: 300px;
+  padding-bottom: 3em;
+  margin-bottom: 1em;
+}
+
+.sentMsg{
+  background-color: #7cad3e;
+  color: #fff;
+  border-radius: 10px;
+  padding: .25em 15px;
+  width: fit-content;
+  font-weight: 500;
+  float: left;
+  clear:both;
+}
+
+.reMsg{
+  background-color: #246476;
+  color: #fff;
+  border-radius: 10px;
+  padding: .25em 15px;
+  width: fit-content;
+  font-weight: 500;
+  justify-content: right;
+  float: right;
+  clear:both;
+}
+
+footer .btn-link{
+  background: none!important;
+	color: inherit!important;
+	border: none!important;
+	padding: 0!important;
+	font: inherit!important;
+	cursor: pointer!important;
+  outline: inherit!important;
+  text-decoration: none!important;
+  box-shadow: none !important;
+  color: #e9bf49!important;
+}
+
+footer .btn-link:hover{
+  color: #246476 !important;
+  text-decoration: none!important;
+}
+
+/* 
+// X-Small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap */
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+
+}
+
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .jumbotron h1 {
+    font-size: 5em;
+  }
+
+  .profileCard .card-body{
+    padding: 0 50px !important;
+  }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+}
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+}
